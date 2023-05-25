@@ -21,3 +21,16 @@ git remote remove origin
 git add .
 git commit -m “Modification du titre H1”
 git push origin main
+
+git branch
+git branch <name of new branch>
+  
+  pour basculer sur une autre branch
+  git checkout cagnotte
+  git commit -m “Réalisation de la partie cagnotte côté front end”
+  git push origin cagnotte
+  git checkout main
+  git merge cagnotte
+ 
+-- get main branch updates
+  git pull origin main
