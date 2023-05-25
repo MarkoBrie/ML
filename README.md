@@ -14,3 +14,10 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 
 Generate New Token
 https://github.com/settings/tokens?type=beta
+
+git remote -v
+git remote remove origin
+
+git add .
+git commit -m “Modification du titre H1”
+git push origin main
