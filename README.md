@@ -53,3 +53,13 @@ git log affiche l'historique des commits réalisés sur la branche courante.
 git reset --hard HEAD^ permet de réinitialiser l'index et le répertoire de travail à l'état du dernier commit.
 
 git commit --amend permet de sélectionner le dernier commit pour y effectuer des modifications.
+  
+  git log affiche l'historique des commits réalisés sur la branche courante.
+
+git reflog est identique à git log. Cette commande affiche également toutes les actions réalisées en local.
+
+git checkout un_identifiant_SHA-1 permet de revenir à une action donnée.
+
+git blame permet de savoir qui a réalisé telle modification dans un fichier, à quelle date, ligne par ligne.
+
+git cherry-pick un_identifiant_SHA-1 un_autre_identifiant_SHA-1 permet de sélectionner un commit et de l'appliquer sur la branche actuelle. 
