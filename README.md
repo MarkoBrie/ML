@@ -18,9 +18,16 @@ https://github.com/settings/tokens?type=beta
 git remote -v
 git remote remove origin
 
-git add .
-git commit -m “Modification du titre H1”
-git push origin main
+  git add .
+  git commit -m “Modification du titre H1”
+  git push origin main
+  
+-- correct changes
+  git commit --amend -m "Votre nouveau message de commit" 
+  
+-- you forget to add a file
+  git add FichierOublie.txt
+  git commit --amend --no-edit
 
 git branch
 git branch <name of new branch>
@@ -34,3 +41,15 @@ git branch <name of new branch>
  
 -- get main branch updates
   git pull origin main
+
+  git branch -d permet de supprimer une branche.
+
+git status permet de voir l’état des fichiers.
+
+git stash enregistre les modifications non indexées pour une utilisation ultérieure. 
+
+git log affiche l'historique des commits réalisés sur la branche courante.
+
+git reset --hard HEAD^ permet de réinitialiser l'index et le répertoire de travail à l'état du dernier commit.
+
+git commit --amend permet de sélectionner le dernier commit pour y effectuer des modifications.
